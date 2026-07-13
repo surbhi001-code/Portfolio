@@ -37,6 +37,13 @@ const Navbar = () => {
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
           </a>
            <a
+            href="#experience"
+            className="relative text-white/80 transition duration-300 hover:text-purple group "
+          >
+            <span>Experience</span>
+            <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
+          </a>
+           <a
             href="#projects"
             className="relative text-white/80 transition duration-300 hover:text-purple group "
           >
@@ -85,6 +92,12 @@ const Navbar = () => {
             className="relative text-white/80 transition duration-300 hover:text-purple group "
           >
             <span>Skills</span>
+          </a>
+           <a onClick={()=>setShowMenu(!showMenu)}
+            href="#experience"
+            className="relative text-white/80 transition duration-300 hover:text-purple group "
+          >
+            <span>Experience</span>
           </a>
            <a onClick={()=>setShowMenu(!showMenu)}
             href="#projects"
