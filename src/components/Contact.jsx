@@ -10,15 +10,16 @@ const Contact = () => {
   const handleSubmit=(e)=>{
     e.preventDefault();
      //Emailjs serviceid templateid and [public key]
-   const service_id='service_5t81l2n';
+   const service_id='service_muxgxhn';
    const template_id='template_oac0cx1';
-   const publicKey='qkk9rcbmN9ijU4ugu';
+   const publicKey='kPFW8uipWvKZBfhRM';
 
  //Create a new object that contains dynamic template params
      const templateParams={
       from_name:name,
       from_email:email,
       to_name: "Surbhi Agarwal",
+      to_email: "surbhiagarwal247@gmail.com",
       message:message,
      };
       
